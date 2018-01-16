@@ -1,6 +1,3 @@
-function forLoop(array){
-  for(var i = 0; i < 25; i++){
-    i === 0 ? array = [...array, "I am 1 strange loop."]
-    : array = [...array, "I am ${i} strange loops."];
-  }
+for (let i = 0, l = testArray.length; i < l; i++) {
+        let s = i === 1 ? "I am 1 strange loop." : `I am ${i} strange loops.`
 }
